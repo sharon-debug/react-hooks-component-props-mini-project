@@ -4,7 +4,6 @@ const blogData = {
   name: "Overreacted",
   image: logo,
   about: "Personal Blog by Sharon",
-  preview: "I explain with words and code",
   posts: [
     {
       id: 1,

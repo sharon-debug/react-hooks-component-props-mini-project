@@ -12,7 +12,7 @@ function makeEmojiList(minutes) {
   return emojis;
 }
 
-function Article({ title, date = "January 1, 2020", preview, minutes }) {
+function Article({ title, date = "January 1, 1970", preview, minutes }) {
   const emojis = makeEmojiList(minutes);
 
   return (
